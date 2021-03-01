@@ -1,0 +1,382 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/03/2021 01:01
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-laboratorio:before { content: "\f100"; }
+.flaticon-buscar:before { content: "\f101"; }
+.flaticon-proteger:before { content: "\f102"; }
+.flaticon-estetoscopio:before { content: "\f103"; }
+.flaticon-camilla:before { content: "\f104"; }
+.flaticon-tableta:before { content: "\f105"; }
+.flaticon-termometro:before { content: "\f106"; }
+.flaticon-silla-de-ruedas:before { content: "\f107"; }
+.flaticon-bascula:before { content: "\f108"; }
+.flaticon-microscopio:before { content: "\f109"; }
+.flaticon-medicamento:before { content: "\f10a"; }
+.flaticon-reporte:before { content: "\f10b"; }
+.flaticon-presentacion:before { content: "\f10c"; }
+.flaticon-medicamento-1:before { content: "\f10d"; }
+.flaticon-sitio:before { content: "\f10e"; }
+.flaticon-oxigeno:before { content: "\f10f"; }
+.flaticon-web:before { content: "\f110"; }
+.flaticon-nota:before { content: "\f111"; }
+.flaticon-ritmo-cardiaco:before { content: "\f112"; }
+.flaticon-botella-de-agua-caliente:before { content: "\f113"; }
+.flaticon-bandeja-de-entrada:before { content: "\f114"; }
+.flaticon-cuentagotas:before { content: "\f115"; }
+.flaticon-kit-de-primeros-auxilios:before { content: "\f116"; }
+.flaticon-carpeta:before { content: "\f117"; }
+.flaticon-fecha:before { content: "\f118"; }
+.flaticon-muleta:before { content: "\f119"; }
+.flaticon-libro:before { content: "\f11a"; }
+.flaticon-ambulancia:before { content: "\f11b"; }
+.flaticon-experimentos:before { content: "\f11c"; }
+.flaticon-cuenta:before { content: "\f11d"; }
+.flaticon-bolsa-de-sangre:before { content: "\f11e"; }
+.flaticon-libro-1:before { content: "\f11f"; }
+.flaticon-hueso:before { content: "\f120"; }
+.flaticon-experimentar:before { content: "\f121"; }
+.flaticon-charla:before { content: "\f122"; }
+.flaticon-cardiograma:before { content: "\f123"; }
+.flaticon-botella:before { content: "\f124"; }
+.flaticon-hospital:before { content: "\f125"; }
+.flaticon-cama-de-hospital:before { content: "\f126"; }
+.flaticon-ampolla:before { content: "\f127"; }
+.flaticon-cuentagotas-1:before { content: "\f128"; }
+.flaticon-aplicacion-medica:before { content: "\f129"; }
+.flaticon-mano:before { content: "\f12a"; }
+.flaticon-pildora:before { content: "\f12b"; }
+.flaticon-ojo:before { content: "\f12c"; }
+.flaticon-botiquin-medico:before { content: "\f12d"; }
+.flaticon-hospital-1:before { content: "\f12e"; }
+.flaticon-corazon:before { content: "\f12f"; }
+.flaticon-diente:before { content: "\f130"; }
+.flaticon-estetoscopio-1:before { content: "\f131"; }
+.flaticon-pildora-1:before { content: "\f132"; }
+.flaticon-cuidado-de-mascotas:before { content: "\f133"; }
+.flaticon-ambulancia-1:before { content: "\f134"; }
+.flaticon-portapapeles:before { content: "\f135"; }
+.flaticon-pierna-rota:before { content: "\f136"; }
+.flaticon-hospital-2:before { content: "\f137"; }
+.flaticon-lupa:before { content: "\f138"; }
+.flaticon-avion-de-papel:before { content: "\f139"; }
+.flaticon-bloquear:before { content: "\f13a"; }
+.flaticon-altavoz:before { content: "\f13b"; }
+.flaticon-tarjeta-de-credito:before { content: "\f13c"; }
+.flaticon-engranaje:before { content: "\f13d"; }
+.flaticon-sonido:before { content: "\f13e"; }
+.flaticon-sin-sonido:before { content: "\f13f"; }
+.flaticon-mapa:before { content: "\f140"; }
+.flaticon-cesta-de-la-compra:before { content: "\f141"; }
+.flaticon-bolsa-de-la-compra:before { content: "\f142"; }
+.flaticon-me-gusta:before { content: "\f143"; }
+.flaticon-flechas:before { content: "\f144"; }
+.flaticon-correo:before { content: "\f145"; }
+.flaticon-charlando:before { content: "\f146"; }
+.flaticon-compartimiento:before { content: "\f147"; }
+.flaticon-telefono-inteligente:before { content: "\f148"; }
+.flaticon-carpeta-1:before { content: "\f149"; }
+.flaticon-restriccion:before { content: "\f14a"; }
+.flaticon-etiqueta:before { content: "\f14b"; }
+.flaticon-paisaje:before { content: "\f14c"; }
+.flaticon-cuidado-de-la-salud:before { content: "\f14d"; }
+.flaticon-texto:before { content: "\f14e"; }
+.flaticon-reloj:before { content: "\f14f"; }
+.flaticon-calendario:before { content: "\f150"; }
+.flaticon-alfiler:before { content: "\f151"; }
+.flaticon-ubicacion:before { content: "\f152"; }
+.flaticon-reloj-de-arena:before { content: "\f153"; }
+.flaticon-monitor:before { content: "\f154"; }
+.flaticon-documento:before { content: "\f155"; }
+.flaticon-solicitud:before { content: "\f156"; }
+.flaticon-eliminar:before { content: "\f157"; }
+.flaticon-libro-2:before { content: "\f158"; }
+.flaticon-franquicia:before { content: "\f159"; }
+.flaticon-ventas:before { content: "\f15a"; }
+.flaticon-imagen:before { content: "\f15b"; }
+.flaticon-diamante:before { content: "\f15c"; }
+.flaticon-control-remoto:before { content: "\f15d"; }
+.flaticon-casa:before { content: "\f15e"; }
+.flaticon-usuario:before { content: "\f15f"; }
+.flaticon-imagen-1:before { content: "\f160"; }
+.flaticon-compartir:before { content: "\f161"; }
+.flaticon-hogar:before { content: "\f162"; }
+.flaticon-archivo:before { content: "\f163"; }
+.flaticon-lista:before { content: "\f164"; }
+.flaticon-ruta:before { content: "\f165"; }
+.flaticon-archivo-1:before { content: "\f166"; }
+.flaticon-sostener:before { content: "\f167"; }
+.flaticon-carpeta-2:before { content: "\f168"; }
+.flaticon-usuarios:before { content: "\f169"; }
+.flaticon-configuraciones:before { content: "\f16a"; }
+.flaticon-anadir:before { content: "\f16b"; }
+.flaticon-servidor:before { content: "\f16c"; }
+.flaticon-usuarios-1:before { content: "\f16d"; }
+.flaticon-salvar:before { content: "\f16e"; }
+.flaticon-telefono-inteligente-1:before { content: "\f16f"; }
+.flaticon-carpeta-3:before { content: "\f170"; }
+.flaticon-informacion:before { content: "\f171"; }
+.flaticon-bloqueado:before { content: "\f172"; }
+.flaticon-alarma:before { content: "\f173"; }
+.flaticon-me-gusta-1:before { content: "\f174"; }
+.flaticon-periodico:before { content: "\f175"; }
+.flaticon-menu:before { content: "\f176"; }
+.flaticon-agenda:before { content: "\f177"; }
+.flaticon-maletin:before { content: "\f178"; }
+.flaticon-buscar-1:before { content: "\f179"; }
+.flaticon-reloj-de-arena-1:before { content: "\f17a"; }
+.flaticon-tarjeta-de-identificacion:before { content: "\f17b"; }
+.flaticon-multiplicar:before { content: "\f17c"; }
+.flaticon-imagen-2:before { content: "\f17d"; }
+.flaticon-cronografo:before { content: "\f17e"; }
+.flaticon-cronografo-1:before { content: "\f17f"; }
+.flaticon-calendario-1:before { content: "\f180"; }
+.flaticon-bloqueado-1:before { content: "\f181"; }
+.flaticon-adjunto-archivo:before { content: "\f182"; }
+.flaticon-altavoz-1:before { content: "\f183"; }
+.flaticon-carpeta-4:before { content: "\f184"; }
+.flaticon-cuaderno:before { content: "\f185"; }
+.flaticon-pasador-de-empuje:before { content: "\f186"; }
+.flaticon-desconectar:before { content: "\f187"; }
+.flaticon-control-s:before { content: "\f188"; }
+.flaticon-repetir:before { content: "\f189"; }
+.flaticon-television:before { content: "\f18a"; }
+.flaticon-base-de-datos:before { content: "\f18b"; }
+.flaticon-bloc:before { content: "\f18c"; }
+.flaticon-carpeta-5:before { content: "\f18d"; }
+.flaticon-navegacion:before { content: "\f18e"; }
+.flaticon-mas:before { content: "\f18f"; }
+.flaticon-usuario-1:before { content: "\f190"; }
+.flaticon-plano:before { content: "\f191"; }
+.flaticon-bloc-1:before { content: "\f192"; }
+.flaticon-tarjeta-de-identificacion-1:before { content: "\f193"; }
+.flaticon-curriculum:before { content: "\f194"; }
+.flaticon-usuario-2:before { content: "\f195"; }
+.flaticon-cuaderno-1:before { content: "\f196"; }
+.flaticon-usuario-3:before { content: "\f197"; }
+.flaticon-calendario-2:before { content: "\f198"; }
+.flaticon-tarjeta-de-identificacion-2:before { content: "\f199"; }
+.flaticon-carpeta-6:before { content: "\f19a"; }
+.flaticon-repetir-1:before { content: "\f19b"; }
+.flaticon-tarjeta-de-identificacion-3:before { content: "\f19c"; }
+.flaticon-control-s-1:before { content: "\f19d"; }
+.flaticon-carpeta-7:before { content: "\f19e"; }
+.flaticon-carpeta-8:before { content: "\f19f"; }
+.flaticon-archivo-2:before { content: "\f1a0"; }
+.flaticon-bloquear-1:before { content: "\f1a1"; }
+.flaticon-bloqueado-2:before { content: "\f1a2"; }
+.flaticon-bloqueado-3:before { content: "\f1a3"; }
+.flaticon-huella-dactilar:before { content: "\f1a4"; }
+.flaticon-disgusto:before { content: "\f1a5"; }
+.flaticon-usuario-4:before { content: "\f1a6"; }
+.flaticon-disgusto-1:before { content: "\f1a7"; }
+.flaticon-basura:before { content: "\f1a8"; }
+.flaticon-pestanas:before { content: "\f1a9"; }
+.flaticon-configuraciones-1:before { content: "\f1aa"; }
+    
+    $font-Flaticon-laboratorio: "\f100";
+    $font-Flaticon-buscar: "\f101";
+    $font-Flaticon-proteger: "\f102";
+    $font-Flaticon-estetoscopio: "\f103";
+    $font-Flaticon-camilla: "\f104";
+    $font-Flaticon-tableta: "\f105";
+    $font-Flaticon-termometro: "\f106";
+    $font-Flaticon-silla-de-ruedas: "\f107";
+    $font-Flaticon-bascula: "\f108";
+    $font-Flaticon-microscopio: "\f109";
+    $font-Flaticon-medicamento: "\f10a";
+    $font-Flaticon-reporte: "\f10b";
+    $font-Flaticon-presentacion: "\f10c";
+    $font-Flaticon-medicamento-1: "\f10d";
+    $font-Flaticon-sitio: "\f10e";
+    $font-Flaticon-oxigeno: "\f10f";
+    $font-Flaticon-web: "\f110";
+    $font-Flaticon-nota: "\f111";
+    $font-Flaticon-ritmo-cardiaco: "\f112";
+    $font-Flaticon-botella-de-agua-caliente: "\f113";
+    $font-Flaticon-bandeja-de-entrada: "\f114";
+    $font-Flaticon-cuentagotas: "\f115";
+    $font-Flaticon-kit-de-primeros-auxilios: "\f116";
+    $font-Flaticon-carpeta: "\f117";
+    $font-Flaticon-fecha: "\f118";
+    $font-Flaticon-muleta: "\f119";
+    $font-Flaticon-libro: "\f11a";
+    $font-Flaticon-ambulancia: "\f11b";
+    $font-Flaticon-experimentos: "\f11c";
+    $font-Flaticon-cuenta: "\f11d";
+    $font-Flaticon-bolsa-de-sangre: "\f11e";
+    $font-Flaticon-libro-1: "\f11f";
+    $font-Flaticon-hueso: "\f120";
+    $font-Flaticon-experimentar: "\f121";
+    $font-Flaticon-charla: "\f122";
+    $font-Flaticon-cardiograma: "\f123";
+    $font-Flaticon-botella: "\f124";
+    $font-Flaticon-hospital: "\f125";
+    $font-Flaticon-cama-de-hospital: "\f126";
+    $font-Flaticon-ampolla: "\f127";
+    $font-Flaticon-cuentagotas-1: "\f128";
+    $font-Flaticon-aplicacion-medica: "\f129";
+    $font-Flaticon-mano: "\f12a";
+    $font-Flaticon-pildora: "\f12b";
+    $font-Flaticon-ojo: "\f12c";
+    $font-Flaticon-botiquin-medico: "\f12d";
+    $font-Flaticon-hospital-1: "\f12e";
+    $font-Flaticon-corazon: "\f12f";
+    $font-Flaticon-diente: "\f130";
+    $font-Flaticon-estetoscopio-1: "\f131";
+    $font-Flaticon-pildora-1: "\f132";
+    $font-Flaticon-cuidado-de-mascotas: "\f133";
+    $font-Flaticon-ambulancia-1: "\f134";
+    $font-Flaticon-portapapeles: "\f135";
+    $font-Flaticon-pierna-rota: "\f136";
+    $font-Flaticon-hospital-2: "\f137";
+    $font-Flaticon-lupa: "\f138";
+    $font-Flaticon-avion-de-papel: "\f139";
+    $font-Flaticon-bloquear: "\f13a";
+    $font-Flaticon-altavoz: "\f13b";
+    $font-Flaticon-tarjeta-de-credito: "\f13c";
+    $font-Flaticon-engranaje: "\f13d";
+    $font-Flaticon-sonido: "\f13e";
+    $font-Flaticon-sin-sonido: "\f13f";
+    $font-Flaticon-mapa: "\f140";
+    $font-Flaticon-cesta-de-la-compra: "\f141";
+    $font-Flaticon-bolsa-de-la-compra: "\f142";
+    $font-Flaticon-me-gusta: "\f143";
+    $font-Flaticon-flechas: "\f144";
+    $font-Flaticon-correo: "\f145";
+    $font-Flaticon-charlando: "\f146";
+    $font-Flaticon-compartimiento: "\f147";
+    $font-Flaticon-telefono-inteligente: "\f148";
+    $font-Flaticon-carpeta-1: "\f149";
+    $font-Flaticon-restriccion: "\f14a";
+    $font-Flaticon-etiqueta: "\f14b";
+    $font-Flaticon-paisaje: "\f14c";
+    $font-Flaticon-cuidado-de-la-salud: "\f14d";
+    $font-Flaticon-texto: "\f14e";
+    $font-Flaticon-reloj: "\f14f";
+    $font-Flaticon-calendario: "\f150";
+    $font-Flaticon-alfiler: "\f151";
+    $font-Flaticon-ubicacion: "\f152";
+    $font-Flaticon-reloj-de-arena: "\f153";
+    $font-Flaticon-monitor: "\f154";
+    $font-Flaticon-documento: "\f155";
+    $font-Flaticon-solicitud: "\f156";
+    $font-Flaticon-eliminar: "\f157";
+    $font-Flaticon-libro-2: "\f158";
+    $font-Flaticon-franquicia: "\f159";
+    $font-Flaticon-ventas: "\f15a";
+    $font-Flaticon-imagen: "\f15b";
+    $font-Flaticon-diamante: "\f15c";
+    $font-Flaticon-control-remoto: "\f15d";
+    $font-Flaticon-casa: "\f15e";
+    $font-Flaticon-usuario: "\f15f";
+    $font-Flaticon-imagen-1: "\f160";
+    $font-Flaticon-compartir: "\f161";
+    $font-Flaticon-hogar: "\f162";
+    $font-Flaticon-archivo: "\f163";
+    $font-Flaticon-lista: "\f164";
+    $font-Flaticon-ruta: "\f165";
+    $font-Flaticon-archivo-1: "\f166";
+    $font-Flaticon-sostener: "\f167";
+    $font-Flaticon-carpeta-2: "\f168";
+    $font-Flaticon-usuarios: "\f169";
+    $font-Flaticon-configuraciones: "\f16a";
+    $font-Flaticon-anadir: "\f16b";
+    $font-Flaticon-servidor: "\f16c";
+    $font-Flaticon-usuarios-1: "\f16d";
+    $font-Flaticon-salvar: "\f16e";
+    $font-Flaticon-telefono-inteligente-1: "\f16f";
+    $font-Flaticon-carpeta-3: "\f170";
+    $font-Flaticon-informacion: "\f171";
+    $font-Flaticon-bloqueado: "\f172";
+    $font-Flaticon-alarma: "\f173";
+    $font-Flaticon-me-gusta-1: "\f174";
+    $font-Flaticon-periodico: "\f175";
+    $font-Flaticon-menu: "\f176";
+    $font-Flaticon-agenda: "\f177";
+    $font-Flaticon-maletin: "\f178";
+    $font-Flaticon-buscar-1: "\f179";
+    $font-Flaticon-reloj-de-arena-1: "\f17a";
+    $font-Flaticon-tarjeta-de-identificacion: "\f17b";
+    $font-Flaticon-multiplicar: "\f17c";
+    $font-Flaticon-imagen-2: "\f17d";
+    $font-Flaticon-cronografo: "\f17e";
+    $font-Flaticon-cronografo-1: "\f17f";
+    $font-Flaticon-calendario-1: "\f180";
+    $font-Flaticon-bloqueado-1: "\f181";
+    $font-Flaticon-adjunto-archivo: "\f182";
+    $font-Flaticon-altavoz-1: "\f183";
+    $font-Flaticon-carpeta-4: "\f184";
+    $font-Flaticon-cuaderno: "\f185";
+    $font-Flaticon-pasador-de-empuje: "\f186";
+    $font-Flaticon-desconectar: "\f187";
+    $font-Flaticon-control-s: "\f188";
+    $font-Flaticon-repetir: "\f189";
+    $font-Flaticon-television: "\f18a";
+    $font-Flaticon-base-de-datos: "\f18b";
+    $font-Flaticon-bloc: "\f18c";
+    $font-Flaticon-carpeta-5: "\f18d";
+    $font-Flaticon-navegacion: "\f18e";
+    $font-Flaticon-mas: "\f18f";
+    $font-Flaticon-usuario-1: "\f190";
+    $font-Flaticon-plano: "\f191";
+    $font-Flaticon-bloc-1: "\f192";
+    $font-Flaticon-tarjeta-de-identificacion-1: "\f193";
+    $font-Flaticon-curriculum: "\f194";
+    $font-Flaticon-usuario-2: "\f195";
+    $font-Flaticon-cuaderno-1: "\f196";
+    $font-Flaticon-usuario-3: "\f197";
+    $font-Flaticon-calendario-2: "\f198";
+    $font-Flaticon-tarjeta-de-identificacion-2: "\f199";
+    $font-Flaticon-carpeta-6: "\f19a";
+    $font-Flaticon-repetir-1: "\f19b";
+    $font-Flaticon-tarjeta-de-identificacion-3: "\f19c";
+    $font-Flaticon-control-s-1: "\f19d";
+    $font-Flaticon-carpeta-7: "\f19e";
+    $font-Flaticon-carpeta-8: "\f19f";
+    $font-Flaticon-archivo-2: "\f1a0";
+    $font-Flaticon-bloquear-1: "\f1a1";
+    $font-Flaticon-bloqueado-2: "\f1a2";
+    $font-Flaticon-bloqueado-3: "\f1a3";
+    $font-Flaticon-huella-dactilar: "\f1a4";
+    $font-Flaticon-disgusto: "\f1a5";
+    $font-Flaticon-usuario-4: "\f1a6";
+    $font-Flaticon-disgusto-1: "\f1a7";
+    $font-Flaticon-basura: "\f1a8";
+    $font-Flaticon-pestanas: "\f1a9";
+    $font-Flaticon-configuraciones-1: "\f1aa";

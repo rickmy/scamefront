@@ -1132,17 +1132,19 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
 }
-
+/* Para mobiles */
 @media (max-width: 767px) {
   /* line 216, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
+    background: #1c6996;
     padding: 10px 10px;
   }
 }
-
+/* Para Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 216, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
+    background: #1c6996;
     padding: 10px 10px;
   }
 }
@@ -1154,13 +1156,14 @@ h3 {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1800px) {
+@media (min-width: 1000px) and (max-width: 2600px) {
   /* line 216, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     background-color: #1c6996;
     padding: 10px 20px;
   }
 }
+
 
 /* line 242, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu {
@@ -2675,7 +2678,7 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area {
   background: #F5FBFF;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 90px;
 }
 
@@ -2710,7 +2713,7 @@ h3 {
 
 /* line 19, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content {
-  padding: 22px 30px 24px 30px;
+  padding: 5px 30px 24px 30px;
 }
 
 /* line 21, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
@@ -6254,3 +6257,14 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.login-icon{
+  font-size: 5rem;
+  text-align: center;
+}
+
+.single_department:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+

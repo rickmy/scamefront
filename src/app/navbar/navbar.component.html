@@ -1,48 +1,54 @@
 <header>
   <div class="header-area ">
-      <div id="sticky-header" class="main-header-area">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-xl-1 col-lg-1">
+    <div id="sticky-header" class="main-header-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-1 col-lg-1">
 
-                  </div>
-                  <div class="col-xl-9 col-lg-9">
-                      <div class="main-menu  d-none d-lg-block">
-                          <nav>
-                              <ul id="navigation" style="margin-bottom: 5px;">
-                                  <li><a class="active" href="/" style="color: white;">Inicio</a></li>
-                                  <li><a style="color: white;" href="/">Especialidades</a></li>
+          </div>
+          <div class="col-xl-9 col-lg-9">
+            <div class="main-menu  d-none d-lg-block">
+              <nav>
+                <ul id="navigation" style="margin-bottom: 5px;">
+                  <li><a class="active" href="/" style="color: white;">Inicio</a></li>
+                  <li><a style="color: white;" href="/">Especialidades</a></li>
 
-                                  <li>
-                                    <div class="logo">
-                                      <a href="/">
-                                          <img src="../../assets/img/logo.svg" alt="">
-                                      </a>
-                                  </div>
-                                  </li>
+                  <li>
+                    <div class="logo">
+                      <a href="/">
+                        <img src="../../assets/img/logo.svg" alt="">
+                      </a>
+                    </div>
+                  </li>
 
-                                  <li><a style="color: white;" href="/">Consultorios</a></li>
-                                  <li><a style="color: white;" href="contact.html">Contacto</a></li>
-                              </ul>
-                          </nav>
-                      </div>
-                  </div>
-                  <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                      <div class="Appointment">
-                          <div class="book_btn d-none d-lg-block">
-                              <a class="popup-with-form" style="
+                  <li><a style="color: white;" href="/">Consultorios</a></li>
+                  <li><a style="color: white;" routerLink="/contact">Contacto</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+            <div class="Appointment">
+              <div class="book_btn d-none d-lg-block">
+                <a class="popup-with-form" (click)="irLogin()" style="
                               padding-left: 10px;
                               padding-right: 10px;
                           ">Iniciar Sesión</a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-12">
-                      <div class="mobile_menu d-block d-lg-none"></div>
-                  </div>
               </div>
+            </div>
           </div>
+          <div class="col-12" >
+            <div class="mobile_menu d-block d-lg-none">
+              <div class="logo">
+                <a href="/">
+                  <img src="../../assets/img/logo.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
 </header>
 <!-- header-end -->

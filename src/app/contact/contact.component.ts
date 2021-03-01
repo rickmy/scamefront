@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sendMsj(){
+    console.log({msl:"pronto..."})
+  }
+
 }
