@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,7 +9,13 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './home/login/login.component';
-import { ComponentsComponent } from './components/components.component';
+import { LayoutComponent } from './comps/layout/layout.component';
+import { ToastComponent } from './comps/toast/toast.component';
+
+import { BlockUIModule } from 'ng-block-ui';
+import { ToastModule } from 'primeng/toast';
+import {InputTextModule} from 'primeng/inputtext';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +25,17 @@ import { ComponentsComponent } from './components/components.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    ComponentsComponent
+    LayoutComponent,
+    ToastComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    BlockUIModule.forRoot(),
+    ToastModule,
+    InputTextModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

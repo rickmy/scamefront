@@ -1,47 +1,69 @@
 <app-navbar></app-navbar>
-<div class="our_department_area" *ngIf="login">
-  <div class="container">
-      <div class="row">
-          <div class="col-xl-12">
-              <div class="section_title text-center mb-55">
-                  <h3>Ingreso a Scame</h3>
-                  <p>Por favor escoja en que perfil desea ingresar. </p>
-              </div>
-          </div>
+<div class="our_department_area">
+  <div class="container" *ngIf="login">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title text-center mb-55">
+          <h3>Ingreso a Scame</h3>
+          <p>Por favor escoja en que perfil desea ingresar. </p>
+        </div>
       </div>
-      <div class="row">
-          <div class="col-xl-2 col-md-6 col-lg-4">
-          </div>
-          <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="single_department" (click)="loginPaciente()">
-                  <div class="department_thumb login-icon">
-                    <i class="flaticon-usuarios "></i>
-                  </div>
-                  <div class="department_content">
-                    <h4 style="text-align: center;">Paciente</h4>
-                </div>
-              </div>
-          </div>
-          <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="single_department" (click)="loginConsultorio()">
-                  <div class="department_thumb login-icon">
-                    <i class="flaticon-hospital"></i>
-                  </div>
-                  <div class="department_content">
-                      <h4 style="text-align: center;">Consultorio</h4>
-                  </div>
-              </div>
-          </div>
-          <div class="col-xl-2 col-md-6 col-lg-4">
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-md-6 col-lg-4">
       </div>
+      <div class="col-xl-4 col-md-6 col-lg-4">
+        <div class="single_department" (click)="loginPaciente()">
+          <div class="department_thumb login-icon">
+            <i class="flaticon-usuarios "></i>
+          </div>
+          <div class="department_content">
+            <h4 style="text-align: center;">Paciente</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6 col-lg-4">
+        <div class="single_department" (click)="loginConsultorio()">
+          <div class="department_thumb login-icon">
+            <i class="flaticon-hospital"></i>
+          </div>
+          <div class="department_content">
+            <h4 style="text-align: center;">Consultorio</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-6 col-lg-4">
+      </div>
+    </div>
+  </div>
+  <div class="container" *ngIf="paciente">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title text-center mb-55">
+          <h3>Bienvenido Paciente</h3>
+          <p>Por favor compléte los campos para poder ingresar. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-6 col-lg-4">
+      </div>
+      <div class="col-xl-4 col-md-6 col-lg-4">
+        <div class="mt-10">
+          <label for="">Número de Identificación</label>
+          <input type="text" name="first_name" placeholder="First Name"
+            onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
+            class="single-input-primary">
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6 col-lg-4">
+      </div>
+    </div>
+  </div>
+  <div class="container" *ngIf="consultorio">
+    login consultrio
   </div>
 </div>
 
-<div class="container" *ngIf="paciente">
-  lgon paciente
-</div>
-<div class="container" *ngIf="consultorio">
-  login consultrio
-</div>
+
 <app-footer></app-footer>
