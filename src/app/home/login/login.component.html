@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-2 col-md-6 col-lg-4">
+      <div class="col-xl-2 col-md-2 col-lg-2">
       </div>
-      <div class="col-xl-4 col-md-6 col-lg-4">
+      <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="single_department" (click)="loginPaciente()">
           <div class="department_thumb login-icon">
             <i class="flaticon-usuarios "></i>
@@ -22,7 +22,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-md-6 col-lg-4">
+      <div class="col-xl-4 col-md-4 col-lg-4">
         <div class="single_department" (click)="loginConsultorio()">
           <div class="department_thumb login-icon">
             <i class="flaticon-hospital"></i>
@@ -32,38 +32,91 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-2 col-md-6 col-lg-4">
+      <div class="col-xl-2 col-md-2 col-lg-2">
       </div>
     </div>
   </div>
   <div class="container" *ngIf="paciente">
-    <div class="row">
-      <div class="col-xl-12">
-        <div class="section_title text-center mb-55">
-          <h3>Bienvenido Paciente</h3>
-          <p>Por favor compléte los campos para poder ingresar. </p>
+    <section>
+      <div class="row">
+        <div class="col-lg-7" >
+          <img src="../../../assets/img/home/undraw_medical_care_movn.svg" alt="" style="width: 100%;">
+        </div>
+        <div class="col-lg-5">
+          <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4">
+            <div class="login-content">
+              <form action="">
+                <img src="../../../assets/img/home/user-lgon.svg" >
+                <h2 class="title">Bienvenido</h2>
+                <div class="input-div one">
+           		   <div class="i">
+           		   		<i class="pi pi-id-card"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text" name="userpac" class="input" [(ngModel)]="cdPaciente" placeholder="Número de Identificacion"
+                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Número de Identificacion'" required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="pi pi-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<input type="password" name="pacpass" class="input" [(ngModel)]="passPaciente" placeholder="Contraseña"
+                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contraseña'" required >
+            	   </div>
+            	</div>
+                      <a href="#">¿Olvidáste tu contraseña?</a>
+                      <input type="submit" class="btn" value="Ingresar" (click)="loginP()">
+                    </form>
+                </div>
+          </div>
+
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-4 col-md-6 col-lg-4">
-      </div>
-      <div class="col-xl-4 col-md-6 col-lg-4">
-        <div class="mt-10">
-          <label for="">Número de Identificación</label>
-          <input type="text" name="first_name" placeholder="First Name"
-            onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
-            class="single-input-primary">
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 col-lg-4">
-      </div>
-    </div>
+    </section>
   </div>
   <div class="container" *ngIf="consultorio">
-    login consultrio
+    <section>
+      <div class="row">
+        <div class="col-lg-7" >
+          <img src="../../../assets/img/home/login_consultorio.svg" alt="" style="width: 100%;">
+        </div>
+        <div class="col-lg-5">
+          <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4">
+            <div class="login-content">
+              <form action="">
+                <i class="fa flaticon-hospital-2 icon-login"></i>
+                <h2 class="title">Bienvenido</h2>
+                <div class="input-div one">
+           		   <div class="i">
+           		   		<i class="pi pi-users"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text" name="userpac" class="input" [(ngModel)]="cdPaciente" placeholder="Código de consultorio"
+                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Código de consultorio'" required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="pi pi-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<input type="password" name="pacpass" class="input" [(ngModel)]="passPaciente" placeholder="Contraseña"
+                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contraseña'" required >
+            	   </div>
+            	</div>
+                      <a href="#">¿Olvidáste tu contraseña?</a>
+                      <input type="submit" class="btn" value="Ingresar" (click)="loginP()">
+                    </form>
+                </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 
-
-<app-footer></app-footer>
+<!--
+<app-footer></app-footer> -->

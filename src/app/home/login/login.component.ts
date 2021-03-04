@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { BlockUI, NgBlockUI } from 'ng-block-ui';
 
 @Component({
@@ -12,21 +13,18 @@ export class LoginComponent implements OnInit {
   paciente: boolean = false;
   consultorio: boolean = false;
   login: boolean = true;
-  value6: string;
 
-  constructor() { }
+  cdPaciente: string;
+  passPaciente: string;
+
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
 
   }
 
   loginPaciente(){
-
-    this.blockUI.start('Cargando...'); // Start blocking
-
-    setTimeout(() => {
-      this.blockUI.stop(); // Stop blocking
-    }, 2000);
     this.login = false;
     this.consultorio = false;
     this.paciente = true;
@@ -39,6 +37,16 @@ export class LoginComponent implements OnInit {
     this.consultorio = true;
     this.paciente = false;
     console.log({msj:"pronto..."})
+  }
+
+  loginP(){
+    console.log(this.cdPaciente , this.passPaciente)
+    if(this.cdPaciente === '1726773623' && this.passPaciente === 'Rick0812'){
+      this.router.navigate(['/'])
+    }else{
+      alert('Contraseña invalida')
+    }
+
   }
 
 }
