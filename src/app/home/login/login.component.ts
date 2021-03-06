@@ -25,6 +25,12 @@ export class LoginComponent implements OnInit {
   }
 
   loginPaciente(){
+
+    this.blockUI.start('Cargando...'); // Start blocking
+
+    setTimeout(() => {
+      this.blockUI.stop(); // Stop blocking
+    }, 1000);
     this.login = false;
     this.consultorio = false;
     this.paciente = true;
